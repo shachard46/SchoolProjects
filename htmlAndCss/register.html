@@ -1,0 +1,274 @@
+<html dir="rtl">
+
+<head>
+    <title>Example form</title>
+    <link rel="stylesheet" type="text/css" href="registerStyle.css">
+</head>
+
+<body>
+    <div class="root">
+            <div class="first-logo"></div>
+        <!-- <h3>הרשמה</h3> -->
+        <div class="container">
+            <form>
+                <label> שם משתמש</label>
+                <input type="text" name="first" placeholder="הכנס שם משתמש">
+                <label>סיסמה</label>
+                <input type="password" name="last" placeholder="הכנס סיסמה">
+                <label> אשר סיסמה</label>
+                <input type="password" name="last" placeholder="אשר סיסמה">
+                <label>כתובת דואר</label>
+                <input type="text" name="email" placeholder="הכנס כתובת דואר">
+                <label>אשר כתובת דואר</label>
+                <input type="text" name="email" placeholder="הכנס כתובת דואר">
+                <label>סוג תחרות</label>
+                <select>
+                    <option value="FRC">FRC</option>
+                    <option value="FTC">FTC</option>
+                    <option value="FLL">FLL</option>
+                </select>
+                <label>מספר קבוצה</label>
+                <input type="text" name="teamNumber" placeholder="הכנס מספר קבוצה">
+                <label>מדינה</label>
+                <select name="country">
+                    <option value="בחר מיקום">בחר מיקום</option>
+                    <option>אוגנדה</option>
+                    <option>אוזבקיסטן</option>
+                    <option>אוסטריה</option>
+                    <option>אוסטרליה</option>
+                    <option>אוקראינה</option>
+                    <option>אורוגווי</option>
+                    <option>אזרבייג'ן</option>
+                    <option>איחוד האמירויות הערביות</option>
+                    <option>איטליה</option>
+                    <option>איי הבהאמה</option>
+                    <option>איי הבתולה (האמריקניים)</option>
+                    <option>איי הבתולה (הבריטיים)</option>
+                    <option>איי התעלה</option>
+                    <option>איי טורקס וקאיקוס</option>
+                    <option>איי מרשל</option>
+                    <option>איי פארו</option>
+                    <option>איי פוקלנד</option>
+                    <option>איי קומורו</option>
+                    <option>איי קוק</option>
+                    <option>איי קיימן</option>
+                    <option>איי שלמה</option>
+                    <option>אינדונזיה</option>
+                    <option>איסלנד</option>
+                    <option>איראן (הרפובליקה האיסלאמית של)</option>
+                    <option>אירלנד, הרפובליקה של</option>
+                    <option>אלבניה</option>
+                    <option>אל סלבדור</option>
+                    <option>אנגווילה</option>
+                    <option>אנגולה</option>
+                    <option>אנדורה</option>
+                    <option>אנטיגואה וברבודה</option>
+                    <option>אסטוניה</option>
+                    <option>אפגניסטן</option>
+                    <option>אקוודור</option>
+                    <option>ארובה</option>
+                    <option>אריתריאה</option>
+                    <option>ארמניה</option>
+                    <option>ארצות הברית של אמריקה</option>
+                    <option>אתיופיה</option>
+                    <option>בהוטן</option>
+                    <option>בוטסוואנה</option>
+                    <option>בולגריה</option>
+                    <option>בוליביה</option>
+                    <option>בונייר</option>
+                    <option>בוסניה והרצגובינה</option>
+                    <option>בורונדי</option>
+                    <option>בורקינה פאסו</option>
+                    <option>בחריין</option>
+                    <option>בלגיה</option>
+                    <option>בליז</option>
+                    <option>בלרוס</option>
+                    <option>בנגלדש</option>
+                    <option>בנין</option>
+                    <option>ברבדוס</option>
+                    <option>ברוניי</option>
+                    <option>ברזיל</option>
+                    <option>בריטניה</option>
+                    <option>ברמודה</option>
+                    <option>ג'יבוטי</option>
+                    <option>ג'מייקה</option>
+                    <option>ג'רזי</option>
+                    <option>גאורגיה</option>
+                    <option>גאנה</option>
+                    <option>גבון</option>
+                    <option>גואדלופ</option>
+                    <option>גואטמלה</option>
+                    <option>גואם</option>
+                    <option>גיאנה (הבריטית)</option>
+                    <option>גיאנה (הצרפתית)</option>
+                    <option>גיברלטר</option>
+                    <option>גינאה ביסאו</option>
+                    <option>גינאה המשוונית</option>
+                    <option>גמביה</option>
+                    <option>גרינלנד</option>
+                    <option>גרמניה</option>
+                    <option>גרנדה</option>
+                    <option>גרנזי</option>
+                    <option>דומיניקה</option>
+                    <option>דנמרק</option>
+                    <option>דרום אפריקה</option>
+                    <option>דרום סודאן</option>
+                    <option>האיטי</option>
+                    <option>האיים המלדיביים</option>
+                    <option>הודו</option>
+                    <option>הולנד</option>
+                    <option>הונג קונג</option>
+                    <option>הונגריה</option>
+                    <option>הונדורס</option>
+                    <option>הפיליפינים</option>
+                    <option>הרפובליקה הדומיניקנית</option>
+                    <option>הרפובליקה המרכז אפריקאית</option>
+                    <option>וייטנאם</option>
+                    <option>ונואטו</option>
+                    <option>ונצואלה</option>
+                    <option>זימבבואה</option>
+                    <option>זמביה</option>
+                    <option>חוף השנהב</option>
+                    <option>טג'יקיסטן</option>
+                    <option>טהיטי</option>
+                    <option>טובלו</option>
+                    <option>טוגו</option>
+                    <option>טונגה</option>
+                    <option>טוניסיה</option>
+                    <option>טורטולה</option>
+                    <option>טורקיה</option>
+                    <option>טורקמניסטן</option>
+                    <option>טיוואן</option>
+                    <option>טנזניה</option>
+                    <option>טרינידד וטובגו</option>
+                    <option>יוון</option>
+                    <option>יפן</option>
+                    <option>ירדן</option>
+                    <option>ישראל</option>
+                    <option>כווית</option>
+                    <option>לאוס</option>
+                    <option>לבנון</option>
+                    <option>לוב </option>
+                    <option>לוקסמבורג</option>
+                    <option>לטביה</option>
+                    <option>ליבריה</option>
+                    <option>ליטא</option>
+                    <option>ליכטנשטיין</option>
+                    <option>לסותו</option>
+                    <option>מאוריטניה</option>
+                    <option>מאוריציוס</option>
+                    <option>מאלי</option>
+                    <option>מדגסקר</option>
+                    <option>מוזמביק</option>
+                    <option>מולדובה, הרפובליקה של</option>
+                    <option>מונגוליה</option>
+                    <option>מונסראט</option>
+                    <option>מונקו</option>
+                    <option>מזרח טימור</option>
+                    <option>מיוט</option>
+                    <option>מיינמאר</option>
+                    <option>מלאווי</option>
+                    <option>מלזיה</option>
+                    <option>מלטה</option>
+                    <option>מצרים</option>
+                    <option>מקאו</option>
+                    <option>מקדוניה, הרפובליקה של</option>
+                    <option>מקסיקו</option>
+                    <option>מרוקו</option>
+                    <option>מרטיניק</option>
+                    <option>נאורו, הרפובליקה של</option>
+                    <option>נורווגיה</option>
+                    <option>ניגריה</option>
+                    <option>ניואה</option>
+                    <option>ניו זילנד</option>
+                    <option>ניז'ר</option>
+                    <option>ניקרגואה</option>
+                    <option>נמיביה</option>
+                    <option>נפאל</option>
+                    <option>סאו טומה ופרינסיפה</option>
+                    <option>סודן</option>
+                    <option>סוואזילנד</option>
+                    <option>סומליה</option>
+                    <option>סוריה</option>
+                    <option>סורינם</option>
+                    <option>סייפן</option>
+                    <option>סיירה לאונה</option>
+                    <option>סיישל</option>
+                    <option>סין, הרפובליקה העממית של</option>
+                    <option>סינגפור</option>
+                    <option>סלובניה</option>
+                    <option>סלובקיה</option>
+                    <option>סמואה</option>
+                    <option>סמואה האמריקנית</option>
+                    <option>סנגל</option>
+                    <option>סנט אוסטטיוס</option>
+                    <option>סנט ברתלמי</option>
+                    <option>סנט ג'והן</option>
+                    <option>סנט וינסנט והגרנדינים</option>
+                    <option>סנט לושיה</option>
+                    <option>סנט מרטן</option>
+                    <option>סנט קיטס ונוויס</option>
+                    <option>סנט קרואה</option>
+                    <option>סנט תומס</option>
+                    <option>ספרד</option>
+                    <option>סרביה</option>
+                    <option>סרי לנקה</option>
+                    <option>עומאן</option>
+                    <option value=" http://www.iq.dhl.com">עירק</option>
+                    <option>ערב הסעודית</option>
+                    <option>פולין</option>
+                    <option>פולינזיה הצרפתית</option>
+                    <option>פורטוגל</option>
+                    <option>פורטו ריקו</option>
+                    <option>פיג'י</option>
+                    <option>פינלנד</option>
+                    <option>פנמה</option>
+                    <option>פפואה גינאה החדשה</option>
+                    <option>פקיסטן</option>
+                    <option>פרגוואי</option>
+                    <option>פרו</option>
+                    <option>צ'אד</option>
+                    <option>צ'ילה</option>
+                    <option>צ'כיה</option>
+                    <option>צרפת</option>
+                    <option>קאטאר</option>
+                    <option>קובה</option>
+                    <option>קולומביה</option>
+                    <option>קונגו</option>
+                    <option>קונגו, הרפובליקה הדמוקרטית של</option>
+                    <option>קוסובו</option>
+                    <option>קוסטה ריקה</option>
+                    <option>קוראסאו</option>
+                    <option>קוריאה, הרפובליקה העממית הדמוקרטית של</option>
+                    <option>קוריאה, הרפובליקה של</option>
+                    <option>קזחסטן</option>
+                    <option>קייפ ורדה</option>
+                    <option>קירגיזסטן</option>
+                    <option>קיריבטי</option>
+                    <option>קלדוניה החדשה</option>
+                    <option>קמבודיה</option>
+                    <option>קמרון</option>
+                    <option>קנדה</option>
+                    <option>קניה</option>
+                    <option>קפריסין</option>
+                    <option>קרואטיה</option>
+                    <option>ראוניון, האי</option>
+                    <option>רואנדה</option>
+                    <option>רומניה</option>
+                    <option>רוסיה</option>
+                    <option>רפובליקת גינאה</option>
+                    <option>שוודיה</option>
+                    <option>שוויץ</option>
+                    <option>תאילנד</option>
+                    <option>תימן</option>
+                </select>
+                <div>
+                    <input type="submit" value="הירשם" class="button register-button">
+                    <input type="button" value="נקה" class="button clear-button">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

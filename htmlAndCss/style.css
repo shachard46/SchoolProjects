@@ -1,0 +1,36 @@
+
+div.menuBar{
+    width: 1010px;  
+    padding: 15px;  
+}
+div.menuBarOption{
+    background-color: darkseagreen;
+    width: 250px;
+    float: right;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.registerPanel{
+    width: 400px;
+    margin: 0 auto;
+    /* float: left; */
+    display: table;
+}
+
+legend{
+    color: darkgray;
+    font-family: tahoma;
+}
+fieldset{
+    border-color: darkgray;
+    border-style: solid;
+    padding: 20px;
+    height: 65px;
+}
+div.container{
+    border: solid;
+    height: 50%;
+}
