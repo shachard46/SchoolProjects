@@ -1,36 +1,25 @@
-
-div.menuBar{
-    width: 1010px;  
-    padding: 15px;  
+/* .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
 }
-div.menuBarOption{
-    background-color: darkseagreen;
-    width: 250px;
-    float: right;
-    border: solid;
-    border-width: 1px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+div.menuBar {
+  width: 1090px;
+  padding: 15px;
+  margin: 0 auto;
+} */
+div {
+  background-color: #efefef;
+  width: 250px;
+  border: solid;
+  border-width: 1px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 100px;
+  float: right;
 }
-div.registerPanel{
-    width: 400px;
-    margin: 0 auto;
-    /* float: left; */
-    display: table;
-}
-
-legend{
-    color: darkgray;
-    font-family: tahoma;
-}
-fieldset{
-    border-color: darkgray;
-    border-style: solid;
-    padding: 20px;
-    height: 65px;
-}
-div.container{
-    border: solid;
-    height: 50%;
-}
+div.menuBarOptionRight {
+    margin-right: 450px;
+  }
