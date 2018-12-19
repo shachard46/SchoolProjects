@@ -2,7 +2,7 @@ body{
     background-color: #007ea5;
 }
 .first-logo {
-    background-image: url(./img/FIRSTWordMark_Black.gif);
+    background-image: url(/home/shachar/SchoolProjects/htmlAndCss/img/FIRSTWordMark_Black.gif);
     width: 384;
     height: 100px;
     margin: 0 auto;
