@@ -7,26 +7,24 @@
 .container table.sub_container {
   border: solid;
   border-radius: 15px;
-  background-color: #ededed;
   margin: 0 auto;
   width: 1200px;
+  background-color: #ededed;
 }
 .container tr.row {
-  border: solid;
   border-radius: 15px;
   height: 50px;
 }
 .container td.header {
-  border: black;
   background-color: #9e9d9d;
-  height: 5%;
+  height: 20px;
   border-radius: 15px;
   padding-inline-start: 15px;
 }
 .container td.sub_topic {
-    width: 600px;
-    padding-inline-start: 25px;
+  width: 600px;
+  padding-inline-start: 25px;
 }
-.container td.last_post{
-    width: 400px;
+.container td.last_post {
+  width: 400px;
 }
