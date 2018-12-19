@@ -130,7 +130,7 @@ select {
   background-color: #efefef;
 }
 .menu div.menuBar {
-  width: 90%;
+  width: 85%;
   padding: 10px;
   background-color: #007ea5;
   height: 285px;
@@ -149,7 +149,7 @@ select {
   padding-bottom: 70px;
 }
 .menu div.menuBarOptionRight {
-  margin-right: 115px;
+  margin-right: 270px;
 }
 .menu label {
   font-size: 30px;
