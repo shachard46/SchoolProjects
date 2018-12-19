@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0, auto;
   padding: 40px;
   background-color: #007ea5;
@@ -8,23 +8,32 @@ table.sub_container {
   border-radius: 15px;
   margin: 0 auto;
   width: 1200px;
-  background-color: #ededed;
-  padding: 30px; 
+  padding: 30px;
+  background-color: #efefef;
 }
 tr.row {
   border-radius: 15px;
   height: 50px;
+  background-color: #d6d6d6;
+}
+td{
+    border-radius: 15px;
+    border: 2px solid #efefef;
+    text-align: center; 
 }
 td.header {
   background-color: #9e9d9d;
   height: 20px;
   border-radius: 15px;
   padding-inline-start: 15px;
+  text-align: right; 
 }
 td.sub_topic {
   width: 600px;
   padding-inline-start: 25px;
+  text-align: right; 
 }
 td.last_post {
   width: 400px;
 }
+
