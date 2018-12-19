@@ -1,25 +1,35 @@
-/* .container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px;
+body{
+  background-color: #efefef;
+  
 }
 div.menuBar {
-  width: 1090px;
-  padding: 15px;
-  margin: 0 auto;
-} */
-div {
+  width: 90%;
+  padding: 10px;
+  background-color: #007ea5;
+  height: 285px;
+  padding-top: 108px;
+  margin: 190 auto;
+  border-radius: 40px;
+}
+div.menuBarOption {
   background-color: #efefef;
-  width: 250px;
+  width: 350px;
+  height: 100px;
   border: solid;
   border-width: 1px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 10px;
-  margin-top: 100px;
+  border-radius: 17px;
+  margin-left: 15px;
   float: right;
+  padding-top: 50px;
 }
 div.menuBarOptionRight {
-    margin-right: 450px;
-  }
+  margin-right: 115px;
+}
+label {
+  font-family: tahoma;
+  font-size: 40px;
+  font-weight: lighter;
+}
