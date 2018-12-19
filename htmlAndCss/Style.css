@@ -1,0 +1,157 @@
+/* general */
+body {
+  background-color: #007ea5;
+  margin: 0, auto;
+}
+a {
+  text-decoration-line: none;
+  color: black;
+}
+a:hover {
+  font-size: 17px;
+  text-decoration-line: underline;
+  color: purple;
+}
+label {
+  font-family: tahoma;
+}
+.button {
+    background-color: #1f6aa8;
+    color: white;
+    border-radius: 10px !important;
+    margin-top: 40px;
+    height: 40px !important;
+    width: 150px !important;
+    font-weight: bolder;
+    font-family: tahoma;
+    font-size: 1.1em;
+  }
+  .send-button {
+    float: left;
+  }
+  
+  .clear-button {
+    float: right;
+  }
+/* register */
+.register .first-logo {
+  background-image: url(/home/shachar/SchoolProjects/htmlAndCss/img/FIRSTWordMark_Black.gif);
+  width: 384;
+  height: 100px;
+  margin: 0 auto;
+}
+.register .root {
+  width: 650px;
+  height: 850px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin: 50px auto;
+  background-color: #efefef;
+  border-radius: 50px;
+}
+.register .container {
+  padding-top: 40px;
+  width: 600px;
+  height: 500px;
+  padding: 20px;
+  padding-top: 20px;
+  margin: 10 auto;
+}
+.register .container label {
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.register .container label::after {
+  content: ":";
+}
+
+.register .root h3::after {
+  content: ":";
+}
+
+.register .root h3 {
+  font-weight: lighter;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.register .container input,
+select {
+  width: 100%;
+  border-radius: 5px;
+  height: 32px;
+}
+.register .container input::placeholder {
+  font-family: tahoma;
+}
+
+/*forum*/
+.forum {
+  padding: 30px;
+}
+.forum table {
+  border: solid;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 30px;
+  background-color: #efefef;
+}
+.forum tr.row {
+  border-radius: 15px;
+  height: 50px;
+  background-color: #d6d6d6;
+}
+.forum td {
+  border-radius: 15px;
+  border: 2px solid #efefef;
+  text-align: center;
+}
+.forum td.header {
+  background-color: #9e9d9d;
+  height: 20px;
+  border-radius: 15px;
+  padding-inline-start: 15px;
+  text-align: right;
+}
+.forum td.sub_topic {
+  width: 600px;
+  padding-inline-start: 25px;
+  text-align: right;
+}
+.forum td.last_post {
+  width: 400px;
+}
+/* menu */
+.menu {
+  background-color: #efefef;
+}
+.menu div.menuBar {
+  width: 90%;
+  padding: 10px;
+  background-color: #007ea5;
+  height: 285px;
+  padding-top: 108px;
+  margin: 190 auto;
+  border-radius: 40px;
+}
+.menu div.menuBarOption {
+  background-color: #bbb9b9;
+  width: 350px;
+  text-align: center;
+  border-radius: 17px;
+  margin-left: 15px;
+  float: right;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.menu div.menuBarOptionRight {
+  margin-right: 115px;
+}
+.menu label {
+  font-size: 30px;
+  font-weight: lighter;
+}
