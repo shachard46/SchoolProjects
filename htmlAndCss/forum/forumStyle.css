@@ -10,6 +10,7 @@
   margin: 0 auto;
   width: 1200px;
   background-color: #ededed;
+  padding: 30px; 
 }
 .container tr.row {
   border-radius: 15px;
