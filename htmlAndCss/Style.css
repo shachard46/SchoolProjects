@@ -128,11 +128,18 @@ select {
   border-radius: 15px;
   padding-inline-start: 15px;
   text-align: right;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 .forum .date {
-  background-color: #9e9d9d;
+  position: relative;
+  background-color: #bebdbd;
   float: left;
+  text-align: left;
+  width: 500px;
   padding-left: 10px;
+  font-weight: bolder;
+  font-size: 1.5em;
 }
 .forum td.sub_topic {
   width: 600px;
@@ -150,7 +157,7 @@ select {
 .forum div.user_info {
   background-color: #bebdbd;
   position: relative;
-  width: 400px !important;
+  width: 900px;
   text-align: right;
   padding-right: 45px;
   float: right;
@@ -166,12 +173,14 @@ select {
   margin-bottom: 30px;
   font-size: 1.6em;
   text-align: right;
+  font-weight: bold;
 }
 .forum img {
   height: 150px;
   width: 150px;
 }
 .forum .post{
+  line-height: 1.8em;
   text-align: right;
   padding: 15px;
   padding-top: 4px;
