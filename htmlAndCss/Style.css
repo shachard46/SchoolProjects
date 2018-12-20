@@ -3,14 +3,17 @@ body {
   background-color: #007ea5;
   margin: 0, auto;
 }
+hr{
+  position: relative;
+  width: 97%
+}
 a {
   text-decoration-line: none;
   color: black;
 }
 a:hover {
-  font-size: 17px;
   text-decoration-line: underline;
-  color: purple;
+  color: #007ea5;
 }
 label {
   font-family: tahoma;
@@ -103,8 +106,8 @@ select {
 .forum {
   padding: 30px;
 }
+
 .forum table {
-  border: solid;
   border-radius: 15px;
   margin: 0 auto;
   width: 1200px;
@@ -114,14 +117,19 @@ select {
 .forum tr.user_row {
   height: 200px;
 }
-.forum td.header {
+.forum td.user_td {
+  background-color: #bebdbd;
+  height: 200px;
+  padding: 15px;
+}
+.forum .header {
   background-color: #9e9d9d;
   height: 20px;
   border-radius: 15px;
   padding-inline-start: 15px;
   text-align: right;
 }
-.forum div.date {
+.forum .date {
   background-color: #9e9d9d;
   float: left;
   padding-left: 10px;
@@ -134,6 +142,47 @@ select {
 .forum td.last_post {
   width: 400px;
 }
+.forum div.profile_photo {
+  position: relative;
+  width: 150px !important;
+  float: right;
+}
+.forum div.user_info {
+  background-color: #bebdbd;
+  position: relative;
+  width: 400px !important;
+  text-align: right;
+  padding-right: 45px;
+  float: right;
+}
+.forum div.small_font{
+  position: relative;
+  margin: 3px;
+  margin-right: 0px;
+  font-size: 0.95em;
+}
+.forum div.big_font{
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 1.6em;
+  text-align: right;
+}
+.forum img {
+  height: 150px;
+  width: 150px;
+}
+.forum .post{
+  text-align: right;
+  padding: 15px;
+  padding-top: 4px;
+}
+.forum div.post_name{
+  position: relative;
+  margin-right: 40px; 
+  font-size: 1.6em;
+  text-align: right;
+}
+
 /* menu */
 .menu {
   background-color: #efefef;
