@@ -15,6 +15,16 @@ a:hover {
 label {
   font-family: tahoma;
 }
+tr {
+  border-radius: 15px;
+  height: 50px;
+  background-color: #d6d6d6;
+}
+td {
+  border-radius: 15px;
+  border: 2px solid #efefef;
+  text-align: center;
+}
 .button {
   background-color: #1f6aa8;
   color: white;
@@ -42,7 +52,7 @@ select {
 
 /* register */
 .register .first-logo {
-  background-image: url(/home/shachar/SchoolProjects/htmlAndCss/img/FIRSTWordMark_Black.gif);
+  background-image: url(./img/FIRSTWordMark_Black.gif);
   width: 384;
   height: 100px;
   margin: 0 auto;
@@ -101,15 +111,8 @@ select {
   padding: 30px;
   background-color: #efefef;
 }
-.forum tr.row {
-  border-radius: 15px;
-  height: 50px;
-  background-color: #d6d6d6;
-}
-.forum td {
-  border-radius: 15px;
-  border: 2px solid #efefef;
-  text-align: center;
+.forum tr.user_row {
+  height: 200px;
 }
 .forum td.header {
   background-color: #9e9d9d;
@@ -117,6 +120,11 @@ select {
   border-radius: 15px;
   padding-inline-start: 15px;
   text-align: right;
+}
+.forum div.date {
+  background-color: #9e9d9d;
+  float: left;
+  padding-left: 10px;
 }
 .forum td.sub_topic {
   width: 600px;
