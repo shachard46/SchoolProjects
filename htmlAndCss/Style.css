@@ -9,7 +9,8 @@ body {
   background-color: #e4dede;
   height: 60px;
   padding-top: 20px;
-  margin: 50px auto;
+  margin: 10px auto;
+  margin-bottom: 50px;  
   border-radius: 40px;
 }
 .menuBarOption {
