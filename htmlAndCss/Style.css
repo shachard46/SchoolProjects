@@ -16,23 +16,30 @@ label {
   font-family: tahoma;
 }
 .button {
-    background-color: #1f6aa8;
-    color: white;
-    border-radius: 10px !important;
-    margin-top: 40px;
-    height: 40px !important;
-    width: 150px !important;
-    font-weight: bolder;
-    font-family: tahoma;
-    font-size: 1.1em;
-  }
-  .send-button {
-    float: left;
-  }
-  
-  .clear-button {
-    float: right;
-  }
+  background-color: #1f6aa8;
+  color: white;
+  border-radius: 10px !important;
+  margin-top: 40px;
+  height: 40px !important;
+  width: 150px !important;
+  font-weight: bolder;
+  font-family: tahoma;
+  font-size: 1.1em;
+}
+.send-button {
+  float: left;
+}
+
+.clear-button {
+  float: right;
+}
+input,
+select {
+  width: 100%;
+  border-radius: 5px;
+  height: 32px;
+}
+
 /* register */
 .register .first-logo {
   background-image: url(/home/shachar/SchoolProjects/htmlAndCss/img/FIRSTWordMark_Black.gif);
@@ -78,12 +85,6 @@ label {
   text-align: center;
 }
 
-.register .container input,
-select {
-  width: 100%;
-  border-radius: 5px;
-  height: 32px;
-}
 .register .container input::placeholder {
   font-family: tahoma;
 }
