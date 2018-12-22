@@ -2,6 +2,7 @@
 body {
   background-color: #007ea5;
   margin: 0, auto;
+  font-family: tahoma;
 }
 .menuBar {
   width: 85%;
@@ -40,10 +41,7 @@ a:hover {
   text-decoration-line: underline;
   color: #007ea5;
 }
-label {
-  font-family: tahoma;
-}
-table {
+.container {
   border-radius: 15px;
   margin: 0 auto;
   width: 1200px;
@@ -59,6 +57,58 @@ td {
   border-radius: 15px;
   border: 2px solid #efefef;
   text-align: center;
+}
+.user_row {
+  height: 200px;
+}
+.user_td {
+  background-color: #bebdbd;
+  height: 200px;
+  padding: 15px;
+}
+div.profile_photo {
+  position: relative;
+  width: 150px !important;
+  float: right;
+}
+div.small_font{
+  position: relative;
+  margin: 3px;
+  margin-right: 0px;
+  font-size: 0.95em;
+}
+div.big_font{
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 1.6em;
+  text-align: right;
+  font-weight: bold;
+}
+.date {
+  position: relative;
+  background-color: #bebdbd;
+  float: left;
+  text-align: left;
+  width: 500px;
+  padding-left: 10px;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+img{
+  height: 150px;
+  width: 150px;
+}
+.post{
+  line-height: 1.8em;
+  text-align: right;
+  padding: 15px;
+  padding-top: 4px;
+}
+div.post_name{
+  position: relative;
+  margin-right: 40px; 
+  font-size: 1.6em;
+  text-align: right;
 }
 .header {
   background-color: #9e9d9d;
@@ -93,7 +143,33 @@ select {
   border-radius: 5px;
   height: 32px;
 }
-
+.user_info {
+  background-color: #bebdbd;
+  position: relative;
+  width: 1200px;
+  text-align: right;
+  padding-right: 45px;
+  float: right;
+}
+.panel{
+  width: 760px;
+  border-radius: 15px;
+  background-color: #d6d6d6;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: right;
+}
+.panel_header{
+  width: 760px !important;
+  height: 45px !important;
+  margin: 0 auto;
+  text-align: right !important;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.spacer{
+  height: 30px;
+}
 /* register */
 .register .first-logo {
   background-image: url(./img/FIRSTWordMark_Black.gif);
@@ -147,24 +223,6 @@ select {
 .forum {
   padding: 30px;
 }
-.forum tr.user_row {
-  height: 200px;
-}
-.forum td.user_td {
-  background-color: #bebdbd;
-  height: 200px;
-  padding: 15px;
-}
-.forum .date {
-  position: relative;
-  background-color: #bebdbd;
-  float: left;
-  text-align: left;
-  width: 500px;
-  padding-left: 10px;
-  font-weight: bolder;
-  font-size: 1.5em;
-}
 .forum td.sub_topic {
   width: 600px;
   padding-inline-start: 25px;
@@ -173,49 +231,6 @@ select {
 .forum td.last_post {
   width: 400px;
 }
-.forum div.profile_photo {
-  position: relative;
-  width: 150px !important;
-  float: right;
-}
-.forum div.user_info {
-  background-color: #bebdbd;
-  position: relative;
-  width: 900px;
-  text-align: right;
-  padding-right: 45px;
-  float: right;
-}
-.forum div.small_font{
-  position: relative;
-  margin: 3px;
-  margin-right: 0px;
-  font-size: 0.95em;
-}
-.forum div.big_font{
-  position: relative;
-  margin-bottom: 30px;
-  font-size: 1.6em;
-  text-align: right;
-  font-weight: bold;
-}
-.forum img {
-  height: 150px;
-  width: 150px;
-}
-.forum .post{
-  line-height: 1.8em;
-  text-align: right;
-  padding: 15px;
-  padding-top: 4px;
-}
-.forum div.post_name{
-  position: relative;
-  margin-right: 40px; 
-  font-size: 1.6em;
-  text-align: right;
-}
-
 /* menu */
 .menu {
   background-color: #efefef;
@@ -262,4 +277,10 @@ select {
 }
 .users table{
   width: 1500px;
+}
+.users tr.info_head{
+  background-color: #efefef
+}
+.users .small_font{
+  margin-bottom: 10px !important;
 }
