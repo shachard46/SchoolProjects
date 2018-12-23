@@ -4,34 +4,63 @@ body {
   margin: 0, auto;
   font-family: tahoma;
 }
+.first-logo-tr {
+  background-color: #efefef;
+}
+.first-logo-td {
+  text-align: center;
+  padding: 20px;
+}
+
+img.first-logo-img {
+  border-radius: 0px !important;
+  width: 140px;
+  height: 32px;
+}
 .menuBar {
   width: 85%;
-  padding: 10px;
   background-color: #e4dede;
-  height: 60px;
-  padding-top: 20px;
+  height: 70px;
+  padding-top: 25px;
+  padding-right: 70px;
+  padding-bottom: 15px;
   margin: 10px auto;
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
   border-radius: 40px;
+}
+.search {
+  width: 500px !important;
+}
+.sign_up_in {
+  width: 100px !important;
+}
+.user_link {
+  width: 40px !important;
+  height: 47px !important;
+  border-radius: 1000px !important;
+  background: url(./img/no-profile-image.jpg);
+  background-size: 55px 68px;
+  background-repeat: no-repeat; 
 }
 .menuBarOption {
   background-color: #bbb9b9;
   width: 240px;
-  height: 30px;
+  height: 40px;
   text-align: center;
-  border-radius: 17px;
+  border-radius: 10px;
+  padding: 7px;
   margin-left: 70px;
   float: right;
   padding-top: 15px;
-  padding-bottom: 7px;
+  padding-bottom: 2px;
   font-size: 1.4em;
 }
 .menuBarOptionRight {
   margin-right: 360px;
 }
-hr{
+hr {
   position: relative;
-  width: 97%
+  width: 97%;
 }
 a {
   text-decoration-line: none;
@@ -71,13 +100,13 @@ div.profile_photo {
   width: 150px !important;
   float: right;
 }
-div.small_font{
+div.small_font {
   position: relative;
   margin: 3px;
   margin-right: 0px;
   font-size: 0.95em;
 }
-div.big_font{
+div.big_font {
   position: relative;
   margin-bottom: 30px;
   font-size: 1.6em;
@@ -94,19 +123,20 @@ div.big_font{
   font-weight: bolder;
   font-size: 1.5em;
 }
-img{
+img {
   height: 150px;
   width: 150px;
+  border-radius: 100px;
 }
-.post{
+.post {
   line-height: 1.8em;
   text-align: right;
   padding: 15px;
   padding-top: 4px;
 }
-div.post_name{
+div.post_name {
   position: relative;
-  margin-right: 40px; 
+  margin-right: 40px;
   font-size: 1.6em;
   text-align: right;
 }
@@ -132,6 +162,7 @@ div.post_name{
 }
 .send-button {
   float: left;
+  position: relative;
 }
 
 .clear-button {
@@ -151,7 +182,7 @@ select {
   padding-right: 45px;
   float: right;
 }
-.panel{
+.panel {
   width: 760px;
   border-radius: 15px;
   background-color: #d6d6d6;
@@ -159,7 +190,7 @@ select {
   padding: 20px;
   text-align: right;
 }
-.panel_header{
+.panel_header {
   width: 760px !important;
   height: 45px !important;
   margin: 0 auto;
@@ -167,19 +198,44 @@ select {
   padding: 20px;
   padding-bottom: 0px;
 }
-.spacer{
+.spacer {
   height: 30px;
 }
-/* register */
-.register .first-logo {
-  background-image: url(./img/FIRSTWordMark_Black.gif);
-  width: 384;
-  height: 100px;
-  margin: 0 auto;
+.search input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 80%;
+  background: #f1f1f1;
 }
+
+.search button {
+  float: left;
+  width: 15% !important ;
+  padding: 8px;
+  margin-left: 8px;
+  background-color: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.search img {
+  width: 15px !important;
+  height: 15px !important;
+}
+.search button:hover {
+  background: #0b7dda;
+}
+
+/* register */
+
 .register .root {
   width: 650px;
-  height: 850px;
+  height: 1000px;
   padding-top: 45px;
   padding-bottom: 45px;
   margin: 50px auto;
@@ -193,6 +249,13 @@ select {
   padding: 20px;
   padding-top: 20px;
   margin: 10 auto;
+}
+.register .first-logo {
+  background-image: url("./img/FIRSTWordMark_Black.gif");
+  width: 384px;
+  height: 100px;
+  margin: auto;
+  position: relative;
 }
 .register .container label {
   display: inline-block;
@@ -218,10 +281,19 @@ select {
 .register .container input::placeholder {
   font-family: tahoma;
 }
+.register .container div.aroundButton {
+  height: 80px;
+  width: 150px;
+  float: left;
+  position: relative;
+}
 
 /*forum*/
 .forum {
   padding: 30px;
+}
+.forum .user_info {
+  width: 900px !;
 }
 .forum td.sub_topic {
   width: 600px;
@@ -235,25 +307,7 @@ select {
 .menu {
   background-color: #efefef;
 }
-.menu div.menuBar {
-  width: 85%;
-  padding: 10px;
-  background-color: #007ea5;
-  height: 285px;
-  padding-top: 108px;
-  margin: 190 auto;
-  border-radius: 40px;
-}
-.menu div.menuBarOption {
-  background-color: #bbb9b9;
-  width: 350px;
-  text-align: center;
-  border-radius: 17px;
-  margin-left: 15px;
-  float: right;
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
+
 .menu div.menuBarOptionRight {
   margin-right: 270px;
 }
@@ -262,25 +316,25 @@ select {
   font-weight: lighter;
 }
 /* users style */
-.users .big_td{
+.users .big_td {
   width: 200px;
 }
-.users .med_td{
+.users .med_td {
   width: 100px;
 }
-.users .small_td{
+.users .small_td {
   width: 80px;
 }
-.users .header{
+.users .header {
   font-size: 1.09em;
   text-align: center;
 }
-.users table{
+.users table {
   width: 1500px;
 }
-.users tr.info_head{
-  background-color: #efefef
+.users tr.info_head {
+  background-color: #efefef;
 }
-.users .small_font{
+.users .small_font {
   margin-bottom: 10px !important;
 }
