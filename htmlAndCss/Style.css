@@ -4,21 +4,14 @@ body {
   margin: 0, auto;
   font-family: tahoma;
 }
-.first-logo-tr {
-  background-color: #efefef;
-}
-.first-logo-td {
-  text-align: center;
-  padding: 20px;
-}
 
 img.first-logo-img {
   border-radius: 0px !important;
-  width: 140px;
+  width: 130px;
   height: 32px;
 }
 .menuBar {
-  width: 85%;
+  width: 1650px;
   background-color: #e4dede;
   height: 70px;
   padding-top: 25px;
@@ -29,17 +22,17 @@ img.first-logo-img {
   border-radius: 40px;
 }
 .search {
-  width: 500px !important;
+  width: 490px !important;
 }
 .sign_up_in {
   width: 100px !important;
 }
 .user_link {
-  width: 40px !important;
+  width: 47px !important;
   height: 47px !important;
   border-radius: 1000px !important;
   background: url(./img/no-profile-image.jpg);
-  background-size: 55px 68px;
+  background-size: 62px 68px;
   background-repeat: no-repeat; 
 }
 .menuBarOption {
@@ -67,6 +60,7 @@ a {
   color: black;
 }
 a:hover {
+  font-size: 103%;
   text-decoration-line: underline;
   color: #007ea5;
 }
@@ -293,7 +287,10 @@ select {
   padding: 30px;
 }
 .forum .user_info {
-  width: 900px !;
+  width: 900px !important;
+}
+.in_forum{
+  width: 130px !important;
 }
 .forum td.sub_topic {
   width: 600px;
