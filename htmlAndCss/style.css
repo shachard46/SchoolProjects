@@ -12,7 +12,7 @@ body {
 }
 img.first-logo-img {
   border-radius: 0px !important;
-  width: 95%;
+  width: 86%;
   height: 32px;
 }
 .menuBar {
@@ -55,7 +55,7 @@ img.first-logo-img {
   margin-left: 2.8%;
   /* font-size: 110%; */
 }
-.users_option{
+.users_option {
   width: 9%;
 }
 hr {
@@ -293,7 +293,7 @@ select {
 
 .forum .user_info {
   padding-top: 2%;
-  width: 78% !important;
+  width: 73% !important;
 }
 .in_forum {
   width: 6.5% !important;
@@ -309,16 +309,21 @@ select {
 /* users style */
 .users .big_td {
   width: 200px;
+  padding-inline-start: 0px !important;
+  text-align: center !important;
 }
 .users .med_td {
   width: 100px;
+  padding-inline-start: 0px !important;
+  text-align: center !important;
 }
 .users .small_td {
   width: 80px;
+  padding-inline-start: 0px !important;
+  text-align: center !important;
 }
 .users .header {
   font-size: 1.09em;
-  text-align: center;
 }
 .users table {
   width: 85%;
@@ -340,7 +345,7 @@ select {
   float: none;
   position: relative;
 }
-.signIn .send-button{
+.signIn .send-button {
   width: 100% !important;
   position: relative;
 }
