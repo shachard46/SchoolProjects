@@ -1,55 +1,58 @@
 /* general */
+
 body {
   background-color: #007ea5;
   margin: 0, auto;
   font-family: tahoma;
 }
-
+.big_container {
+  width: 1080px !important;
+  margin: 0 auto;
+  padding: 5px;
+}
 img.first-logo-img {
   border-radius: 0px !important;
   width: 130px;
   height: 32px;
 }
 .menuBar {
-  width: 1650px;
+  width: 85%;
   background-color: #e4dede;
   height: 70px;
   padding-top: 25px;
-  padding-right: 70px;
-  padding-bottom: 15px;
-  margin: 10px auto;
-  margin-bottom: 50px;
+  padding-right: 4%;
+  padding-bottom: 10px;
+  margin: 15px auto;
+  margin-bottom: 20px;
   border-radius: 40px;
+  position: relative;
 }
 .search {
-  width: 490px !important;
+  width: 30% !important;
 }
 .sign_up_in {
-  width: 100px !important;
+  width: 7% !important;
 }
 .user_link {
-  width: 47px !important;
+  width: 50px !important;
   height: 47px !important;
   border-radius: 1000px !important;
   background: url(./img/no-profile-image.jpg);
-  background-size: 62px 68px;
-  background-repeat: no-repeat; 
+  background-size: 60px 64px;
+  background-repeat: no-repeat;
 }
 .menuBarOption {
   background-color: #bbb9b9;
-  width: 240px;
+  width: 14%;
   height: 40px;
   text-align: center;
   border-radius: 10px;
-  padding: 7px;
-  margin-left: 70px;
+  padding: 5px;
   float: right;
   padding-top: 15px;
   padding-bottom: 2px;
   font-size: 1.4em;
-}
-.menuBarOptionRight {
-  margin-right: 360px;
+  margin-left: 4%;
 }
 hr {
   position: relative;
@@ -67,7 +70,7 @@ a:hover {
 .container {
   border-radius: 15px;
   margin: 0 auto;
-  width: 1200px;
+  width: 80%;
   padding: 30px;
   background-color: #efefef;
 }
@@ -85,6 +88,7 @@ td {
   height: 200px;
 }
 .user_td {
+  width: 85%;
   background-color: #bebdbd;
   height: 200px;
   padding: 15px;
@@ -111,9 +115,10 @@ div.big_font {
   position: relative;
   background-color: #bebdbd;
   float: left;
+  display: inline-block;
   text-align: left;
-  width: 500px;
-  padding-left: 10px;
+  width: 50%;
+  padding-left: 0.65%;
   font-weight: bolder;
   font-size: 1.5em;
 }
@@ -171,13 +176,13 @@ select {
 .user_info {
   background-color: #bebdbd;
   position: relative;
-  width: 1200px;
+  width: 80%;
   text-align: right;
   padding-right: 45px;
   float: right;
 }
 .panel {
-  width: 760px;
+  width: 55% !important;
   border-radius: 15px;
   background-color: #d6d6d6;
   margin: 0 auto;
@@ -185,7 +190,7 @@ select {
   text-align: right;
 }
 .panel_header {
-  width: 760px !important;
+  width: 55% !important;
   height: 45px !important;
   margin: 0 auto;
   text-align: right !important;
@@ -224,10 +229,7 @@ select {
 .search button:hover {
   background: #0b7dda;
 }
-
-/* register */
-
-.register .root {
+.s_r_root {
   width: 650px;
   height: 1000px;
   padding-top: 45px;
@@ -236,7 +238,7 @@ select {
   background-color: #efefef;
   border-radius: 50px;
 }
-.register .container {
+.s_r_container {
   padding-top: 40px;
   width: 600px;
   height: 500px;
@@ -244,38 +246,38 @@ select {
   padding-top: 20px;
   margin: 10 auto;
 }
-.register .first-logo {
+.s_r_root .first-logo {
   background-image: url("./img/FIRSTWordMark_Black.gif");
   width: 384px;
   height: 100px;
   margin: auto;
   position: relative;
 }
-.register .container label {
+.s_r_container label {
   display: inline-block;
   text-align: left;
   font-weight: bold;
   padding-bottom: 15px;
   padding-top: 15px;
 }
-.register .container label::after {
+.s_r_container label::after {
   content: ":";
 }
 
-.register .root h3::after {
+.s_r_root h3::after {
   content: ":";
 }
 
-.register .root h3 {
+.s_r_root h3 {
   font-weight: lighter;
   font-size: 2.5em;
   text-align: center;
 }
 
-.register .container input::placeholder {
+.s_r_container input::placeholder {
   font-family: tahoma;
 }
-.register .container div.aroundButton {
+.s_r_container div.aroundButton {
   height: 80px;
   width: 150px;
   float: left;
@@ -283,34 +285,21 @@ select {
 }
 
 /*forum*/
-.forum {
-  padding: 30px;
-}
+
 .forum .user_info {
-  width: 900px !important;
+  padding-top: 2%;
+  width: 78% !important;
 }
-.in_forum{
+.in_forum {
   width: 130px !important;
 }
 .forum td.sub_topic {
-  width: 600px;
+  width: 50%;
   padding-inline-start: 25px;
   text-align: right;
 }
 .forum td.last_post {
-  width: 400px;
-}
-/* menu */
-.menu {
-  background-color: #efefef;
-}
-
-.menu div.menuBarOptionRight {
-  margin-right: 270px;
-}
-.menu label {
-  font-size: 30px;
-  font-weight: lighter;
+  width: 40%;
 }
 /* users style */
 .users .big_td {
@@ -327,11 +316,26 @@ select {
   text-align: center;
 }
 .users table {
-  width: 1500px;
+  width: 85%;
 }
 .users tr.info_head {
   background-color: #efefef;
 }
 .users .small_font {
   margin-bottom: 10px !important;
+}
+/* sign in */
+.signIn .s_r_root {
+  height: 40%;
+}
+.signIn div.around_button {
+  height: 80px;
+  width: 100%;
+  margin: auto !important;
+  float: none;
+  position: relative;
+}
+.signIn .send-button{
+  width: 100% !important;
+  position: relative;
 }

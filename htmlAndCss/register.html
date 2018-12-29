@@ -4,13 +4,13 @@
     <link rel="stylesheet" type="text/css" href="Style.css" />
   </head>
 
-  <body class="register">
+  <body>
     
-    <div class="root">
+    <div class="s_r_root">
       <div class="first-logo"></div>
       <!-- <h3>הרשמה</h3> -->
-      <div class="container">
-        <form>
+      <div class="s_r_container">
+        <form action="./forum/forumBase.html">
           <label> שם משתמש</label>
           <input type="text" name="first" placeholder="הכנס שם משתמש" />
           <label>סיסמה</label>
@@ -280,17 +280,8 @@
             name="rookieTime"
             placeholder="הכנס תאריך הצטרפות לקבוצה"
           />
-          <div>
-            <a href="./forum/forumBase.html">
-              <div class="aroundButton">
-                <input
-                  type="submit"
-                  value="הירשם"
-                  class="button send-button"
-                /></div
-            ></a>
-            <input type="button" value="נקה" class="button clear-button" />
-          </div>
+          <input type="reset" value="נקה" class="button clear-button" />
+          <input type="submit" value="היכנס" class="button send-button" />
         </form>
       </div>
     </div>
