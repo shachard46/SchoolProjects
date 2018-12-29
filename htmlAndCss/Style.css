@@ -6,8 +6,9 @@ body {
   font-family: tahoma;
 }
 .big_container{
-  width: 1280px;
+  width: 1080px !important;
   margin: 0 auto;
+  padding: 30px;
 }
 img.first-logo-img {
   border-radius: 0px !important;
@@ -18,9 +19,9 @@ img.first-logo-img {
   width: 90%;
   background-color: #e4dede;
   height: 7%;
-  padding-top: 25px;
+  padding-top: 2%;
   padding-right: 70px;
-  padding-bottom: 15px;
+  padding-bottom: 2%;
   margin: 10px auto;
   margin-bottom: 50px;
   border-radius: 40px;
@@ -287,9 +288,7 @@ select {
 }
 
 /*forum*/
-.forum {
-  padding: 30px;
-}
+
 .forum .user_info {
   padding-top: 2%;
   width: 78% !important;
