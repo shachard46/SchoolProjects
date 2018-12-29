@@ -1,59 +1,57 @@
 /* general */
+
 body {
   background-color: #007ea5;
   margin: 0, auto;
   font-family: tahoma;
 }
-
+.big_container{
+  width: 1280px;
+  margin: 0 auto;
+}
 img.first-logo-img {
   border-radius: 0px !important;
   width: 130px;
   height: 32px;
 }
 .menuBar {
-  width: 103em;
+  width: 90%;
   background-color: #e4dede;
-  height: 4.35em;
-  padding-top: 1.55em;
-  padding-right: 4.35em;
-  padding-bottom: 0.9em;
-  margin: 0.5em auto;
-  margin-bottom: 3.1em;
+  height: 7%;
+  padding-top: 25px;
+  padding-right: 70px;
+  padding-bottom: 15px;
+  margin: 10px auto;
+  margin-bottom: 50px;
   border-radius: 40px;
+  position: relative;
 }
 .search {
-  width: 22em !important;
+  width: 29% !important;
 }
 .sign_up_in {
-  width: 4.5em !important;
+  width: 6.25% !important;
 }
 .user_link {
-  width: 2.15em !important;
-  height: 2.1em !important;
+  width: 50px !important;
+  height: 47px !important;
   border-radius: 1000px !important;
   background: url(./img/no-profile-image.jpg);
-  background-size: 2.8em 3em;
-  background-repeat: no-repeat; 
-}
-.user_link:hover{
-  width: 2.15em !important;
-  background-size: 2.8em 3em !important;
+  background-size: 60px 64px;
+  background-repeat: no-repeat;
 }
 .menuBarOption {
   background-color: #bbb9b9;
-  width: 240px;
+  width: 15%;
   height: 40px;
   text-align: center;
-  border-radius: 0.45em;
-  padding: 0.3em;
-  margin-left: 3.2em;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 3%;
   float: right;
-  padding-top: 0.7em;
-  padding-bottom: 0.1em;
+  padding-top: 15px;
+  padding-bottom: 2px;
   font-size: 1.4em;
-}
-.menuBarOptionRight {
-  margin-right: 1.5em;
 }
 hr {
   position: relative;
@@ -69,33 +67,34 @@ a:hover {
   color: #007ea5;
 }
 .container {
-  border-radius: 0.9em;
+  border-radius: 15px;
   margin: 0 auto;
-  width: 75em;
-  padding: 1.9em;
+  width: 80%;
+  padding: 30px;
   background-color: #efefef;
 }
 tr {
-  border-radius: 0.9em;
-  height: 3em;
+  border-radius: 15px;
+  height: 50px;
   background-color: #d6d6d6;
 }
 td {
-  border-radius: 0.9em;
-  border: 0.1em solid #efefef;
+  border-radius: 15px;
+  border: 2px solid #efefef;
   text-align: center;
 }
 .user_row {
-  height: 7em;
+  height: 200px;
 }
 .user_td {
+  width: 85%;
   background-color: #bebdbd;
-  height: 13em;
-  padding: 1.15em;
+  height: 200px;
+  padding: 15px;
 }
 div.profile_photo {
   position: relative;
-  width: 9.4em !important;
+  width: 150px !important;
   float: right;
 }
 div.small_font {
@@ -115,15 +114,16 @@ div.big_font {
   position: relative;
   background-color: #bebdbd;
   float: left;
+  display: inline-block;
   text-align: left;
-  width: 500px;
-  padding-left: 10px;
+  width: 50%;
+  padding-left: 0.65%;
   font-weight: bolder;
   font-size: 1.5em;
 }
 img {
-  height: 9.4em;
-  width: 9.4em;
+  height: 150px;
+  width: 150px;
   border-radius: 100px;
 }
 .post {
@@ -175,13 +175,13 @@ select {
 .user_info {
   background-color: #bebdbd;
   position: relative;
-  width: 1200px;
+  width: 80%;
   text-align: right;
   padding-right: 45px;
   float: right;
 }
 .panel {
-  width: 760px;
+  width: 55% !important;
   border-radius: 15px;
   background-color: #d6d6d6;
   margin: 0 auto;
@@ -189,7 +189,7 @@ select {
   text-align: right;
 }
 .panel_header {
-  width: 760px !important;
+  width: 55% !important;
   height: 45px !important;
   margin: 0 auto;
   text-align: right !important;
@@ -233,7 +233,7 @@ select {
 
 .register .root {
   width: 650px;
-  height: 63em;
+  height: 1000px;
   padding-top: 45px;
   padding-bottom: 45px;
   margin: 50px auto;
@@ -288,38 +288,39 @@ select {
 
 /*forum*/
 .forum {
-  padding: 2em;
+  padding: 30px;
 }
 .forum .user_info {
-  width: 56em !important;
+  padding-top: 2%;
+  width: 78% !important;
 }
-.in_forum{
+.in_forum {
   width: 130px !important;
 }
 .forum td.sub_topic {
-  width: 37em;
+  width: 50%;
   padding-inline-start: 25px;
   text-align: right;
 }
 .forum td.last_post {
-  width: 26em;
+  width: 40%;
 }
 /* users style */
 .users .big_td {
-  width: 11em;
+  width: 200px;
 }
 .users .med_td {
-  width: 5.5em;
+  width: 100px;
 }
 .users .small_td {
-  width: 4em;
+  width: 80px;
 }
 .users .header {
   font-size: 1.09em;
   text-align: center;
 }
 .users table {
-  width: 94em;
+  width: 85%  ;
 }
 .users tr.info_head {
   background-color: #efefef;
