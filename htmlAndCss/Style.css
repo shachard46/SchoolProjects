@@ -12,11 +12,11 @@ body {
 }
 img.first-logo-img {
   border-radius: 0px !important;
-  width: 130px;
+  width: 95%;
   height: 32px;
 }
 .menuBar {
-  width: 85%;
+  width: 90%;
   background-color: #e4dede;
   height: 70px;
   padding-top: 25px;
@@ -43,7 +43,7 @@ img.first-logo-img {
 }
 .menuBarOption {
   background-color: #bbb9b9;
-  width: 14%;
+  width: 9%;
   height: 40px;
   text-align: center;
   border-radius: 10px;
@@ -52,7 +52,11 @@ img.first-logo-img {
   padding-top: 15px;
   padding-bottom: 2px;
   font-size: 1.4em;
-  margin-left: 4%;
+  margin-left: 2.8%;
+  /* font-size: 110%; */
+}
+.users_option{
+  width: 9%;
 }
 hr {
   position: relative;
@@ -106,7 +110,7 @@ div.small_font {
 }
 div.big_font {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 4%;
   font-size: 1.6em;
   text-align: right;
   font-weight: bold;
@@ -176,8 +180,9 @@ select {
 .user_info {
   background-color: #bebdbd;
   position: relative;
-  width: 80%;
+  width: 75%;
   text-align: right;
+  padding-top: 2%;
   padding-right: 45px;
   float: right;
 }
@@ -291,7 +296,7 @@ select {
   width: 78% !important;
 }
 .in_forum {
-  width: 130px !important;
+  width: 6.5% !important;
 }
 .forum td.sub_topic {
   width: 50%;
