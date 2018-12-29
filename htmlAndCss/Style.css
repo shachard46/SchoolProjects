@@ -11,45 +11,49 @@ img.first-logo-img {
   height: 32px;
 }
 .menuBar {
-  width: 1650px;
+  width: 103em;
   background-color: #e4dede;
-  height: 70px;
-  padding-top: 25px;
-  padding-right: 70px;
-  padding-bottom: 15px;
-  margin: 10px auto;
-  margin-bottom: 50px;
+  height: 4.35em;
+  padding-top: 1.55em;
+  padding-right: 4.35em;
+  padding-bottom: 0.9em;
+  margin: 0.5em auto;
+  margin-bottom: 3.1em;
   border-radius: 40px;
 }
 .search {
-  width: 490px !important;
+  width: 22em !important;
 }
 .sign_up_in {
-  width: 100px !important;
+  width: 4.5em !important;
 }
 .user_link {
-  width: 47px !important;
-  height: 47px !important;
+  width: 2.15em !important;
+  height: 2.1em !important;
   border-radius: 1000px !important;
   background: url(./img/no-profile-image.jpg);
-  background-size: 62px 68px;
+  background-size: 2.8em 3em;
   background-repeat: no-repeat; 
+}
+.user_link:hover{
+  width: 2.15em !important;
+  background-size: 2.8em 3em !important;
 }
 .menuBarOption {
   background-color: #bbb9b9;
   width: 240px;
   height: 40px;
   text-align: center;
-  border-radius: 10px;
-  padding: 7px;
-  margin-left: 70px;
+  border-radius: 0.45em;
+  padding: 0.3em;
+  margin-left: 3.2em;
   float: right;
-  padding-top: 15px;
-  padding-bottom: 2px;
+  padding-top: 0.7em;
+  padding-bottom: 0.1em;
   font-size: 1.4em;
 }
 .menuBarOptionRight {
-  margin-right: 360px;
+  margin-right: 1.5em;
 }
 hr {
   position: relative;
@@ -65,33 +69,33 @@ a:hover {
   color: #007ea5;
 }
 .container {
-  border-radius: 15px;
+  border-radius: 0.9em;
   margin: 0 auto;
-  width: 1200px;
-  padding: 30px;
+  width: 75em;
+  padding: 1.9em;
   background-color: #efefef;
 }
 tr {
-  border-radius: 15px;
-  height: 50px;
+  border-radius: 0.9em;
+  height: 3em;
   background-color: #d6d6d6;
 }
 td {
-  border-radius: 15px;
-  border: 2px solid #efefef;
+  border-radius: 0.9em;
+  border: 0.1em solid #efefef;
   text-align: center;
 }
 .user_row {
-  height: 200px;
+  height: 7em;
 }
 .user_td {
   background-color: #bebdbd;
-  height: 200px;
-  padding: 15px;
+  height: 13em;
+  padding: 1.15em;
 }
 div.profile_photo {
   position: relative;
-  width: 150px !important;
+  width: 9.4em !important;
   float: right;
 }
 div.small_font {
@@ -118,8 +122,8 @@ div.big_font {
   font-size: 1.5em;
 }
 img {
-  height: 150px;
-  width: 150px;
+  height: 9.4em;
+  width: 9.4em;
   border-radius: 100px;
 }
 .post {
@@ -229,7 +233,7 @@ select {
 
 .register .root {
   width: 650px;
-  height: 1000px;
+  height: 63em;
   padding-top: 45px;
   padding-bottom: 45px;
   margin: 50px auto;
@@ -284,50 +288,38 @@ select {
 
 /*forum*/
 .forum {
-  padding: 30px;
+  padding: 2em;
 }
 .forum .user_info {
-  width: 900px !important;
+  width: 56em !important;
 }
 .in_forum{
   width: 130px !important;
 }
 .forum td.sub_topic {
-  width: 600px;
+  width: 37em;
   padding-inline-start: 25px;
   text-align: right;
 }
 .forum td.last_post {
-  width: 400px;
-}
-/* menu */
-.menu {
-  background-color: #efefef;
-}
-
-.menu div.menuBarOptionRight {
-  margin-right: 270px;
-}
-.menu label {
-  font-size: 30px;
-  font-weight: lighter;
+  width: 26em;
 }
 /* users style */
 .users .big_td {
-  width: 200px;
+  width: 11em;
 }
 .users .med_td {
-  width: 100px;
+  width: 5.5em;
 }
 .users .small_td {
-  width: 80px;
+  width: 4em;
 }
 .users .header {
   font-size: 1.09em;
   text-align: center;
 }
 .users table {
-  width: 1500px;
+  width: 94em;
 }
 .users tr.info_head {
   background-color: #efefef;
