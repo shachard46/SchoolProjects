@@ -19,6 +19,7 @@ img.first-logo-img {
 .menuBar {
   top: 0;
   position: sticky;
+  display: block;
   width: 96%;
   background-color: #e4dede;
   height: 70px;
@@ -27,7 +28,6 @@ img.first-logo-img {
   padding-bottom: 10px;
   margin: auto;
   margin-bottom: 20px;
-  /* border-radius: 40px; */
 }
 .search {
   width: 30% !important;
@@ -61,7 +61,7 @@ img.first-logo-img {
   width: 9%;
 }
 hr {
-  position: relative;
+  
   width: 97%;
 }
 a {
@@ -100,25 +100,25 @@ td {
   padding: 15px;
 }
 div.profile_photo {
-  position: relative;
+  
   width: 150px !important;
   float: right;
 }
 div.small_font {
-  position: relative;
+  
   margin: 3px;
   margin-right: 0px;
   font-size: 0.95em;
 }
 div.big_font {
-  position: relative;
+  
   margin-bottom: 4%;
   font-size: 1.6em;
   text-align: right;
   font-weight: bold;
 }
 .date {
-  position: relative;
+  
   background-color: #bebdbd;
   float: left;
   display: inline-block;
@@ -140,7 +140,7 @@ img {
   padding-top: 4px;
 }
 div.post_name {
-  position: relative;
+  
   margin-right: 40px;
   font-size: 1.6em;
   text-align: right;
@@ -167,7 +167,7 @@ div.post_name {
 }
 .send-button {
   float: left;
-  position: relative;
+  
 }
 
 .clear-button {
@@ -181,7 +181,7 @@ select {
 }
 .user_info {
   background-color: #bebdbd;
-  position: relative;
+  
   width: 75%;
   text-align: right;
   padding-top: 2%;
@@ -258,7 +258,7 @@ select {
   width: 384px;
   height: 100px;
   margin: auto;
-  position: relative;
+  
 }
 .s_r_container label {
   display: inline-block;
@@ -288,7 +288,7 @@ select {
   height: 80px;
   width: 150px;
   float: left;
-  position: relative;
+  
 }
 
 /*forum*/
@@ -345,9 +345,9 @@ select {
   width: 100%;
   margin: auto !important;
   float: none;
-  position: relative;
+  
 }
 .signIn .send-button {
   width: 100% !important;
-  position: relative;
+  
 }
