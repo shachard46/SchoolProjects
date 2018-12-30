@@ -61,7 +61,6 @@ img.first-logo-img {
   width: 9%;
 }
 hr {
-  
   width: 97%;
 }
 a {
@@ -100,25 +99,21 @@ td {
   padding: 15px;
 }
 div.profile_photo {
-  
   width: 150px !important;
   float: right;
 }
 div.small_font {
-  
   margin: 3px;
   margin-right: 0px;
   font-size: 0.95em;
 }
 div.big_font {
-  
   margin-bottom: 4%;
   font-size: 1.6em;
   text-align: right;
   font-weight: bold;
 }
 .date {
-  
   background-color: #bebdbd;
   float: left;
   display: inline-block;
@@ -140,7 +135,6 @@ img {
   padding-top: 4px;
 }
 div.post_name {
-  
   margin-right: 40px;
   font-size: 1.6em;
   text-align: right;
@@ -167,7 +161,6 @@ div.post_name {
 }
 .send-button {
   float: left;
-  
 }
 
 .clear-button {
@@ -181,7 +174,7 @@ select {
 }
 .user_info {
   background-color: #bebdbd;
-  
+
   width: 75%;
   text-align: right;
   padding-top: 2%;
@@ -258,7 +251,6 @@ select {
   width: 384px;
   height: 100px;
   margin: auto;
-  
 }
 .s_r_container label {
   display: inline-block;
@@ -288,7 +280,6 @@ select {
   height: 80px;
   width: 150px;
   float: left;
-  
 }
 
 /*forum*/
@@ -345,9 +336,7 @@ select {
   width: 100%;
   margin: auto !important;
   float: none;
-  
 }
 .signIn .send-button {
   width: 100% !important;
-  
 }
